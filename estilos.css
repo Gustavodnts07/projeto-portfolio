@@ -1,0 +1,313 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+:root {
+    
+    /*cores*/
+    --colorgit: #C0C4CE;
+    --colorht:#E3646E;
+    --colorcss:#3996DB;
+    --colorjs:#EABD5F;
+    --colortext:#878EA1;
+    --colortitle:#E2E4E9;
+}
+
+.fundo {
+    background-image: url(./img/Background_Intro.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 90vh;
+    
+}
+
+
+body {
+    color: #E2E4E9;
+    background-color:#16181D ;
+    font-size: 62.5%;
+}
+
+
+
+.foto {
+    height: 10.6em;
+    width: 10.6em;
+    border-radius: 999em ;
+    margin-bottom: 5.6em;
+    margin-top: 10.6em;
+}
+
+strong {
+    color: #E3646E;
+}
+
+.header-inicio {
+    margin: auto;
+    text-align: center;
+    width: 70%;
+    max-width: 100em;
+    height: auto;
+    max-width: 95vh;
+    
+}
+    
+.nome {
+    font-size: 2em;
+    line-height: 120%;
+    width: regular;
+    color: var(--colortext);
+}
+
+.df {
+    font-size: 2.7em;
+    line-height: 120%;
+    width: bold;
+    color: var(--colortitle);
+    margin-top: 1em;
+    margin-bottom: 1em;
+}
+
+.legenda {
+    font-size: 1.4em;
+    line-height: 140%;
+    width: regular;
+    color: var(--colortext);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.especial {
+    margin-top: 15%;
+}
+
+.especial ul {
+    display: flex;
+    list-style-type: none;
+    gap: 1em;
+    justify-content: center;
+    align-items: center;
+}
+
+.especial li {
+    background-color:#292C34 ;
+    padding: 1.2em;
+    border-radius: 999em;
+    font-size: 1.2em;
+}
+
+.especial img {
+    margin-right: 1em;
+}
+    
+.git {
+    color: var(--colorgit);
+}
+.html {
+    color: var(--colorht);
+}
+.css {
+    color: var(--colorcss);
+}
+.js {
+    color: var(--colorjs);
+}
+
+.seta {
+    text-align: center;
+    margin-top: 1em;
+}
+
+
+.header-hero {
+    text-align: center;
+    margin-top: 9.5em;
+}
+
+.header-hero strong {
+    font-size: 2.4em;
+    line-height: 120%;
+    width: regular;
+}
+
+.header-hero h2{ 
+    font-size: 3em;
+}
+
+
+.trabalhos {
+    margin-bottom: 14.4em;
+}
+
+.galeria {
+    width: 70%;
+    height: 58.4em;
+    margin: auto;
+    margin-top: 5.6em;
+}
+
+.galeria ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2.4em;
+    flex-wrap: wrap;
+    
+}
+
+.galeria li {
+    background-color: #292C34;
+    list-style-type: none;
+    border-radius: 6px;
+    max-width: 33em;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    padding: 1.2em;
+}
+
+.galeria li:hover {
+    border: 1px solid #C0C4CE;
+    max-width: 36em;
+    height: 30em;
+}
+
+
+.galeria li img {
+    width: 100%;
+    height: 15.6em;
+    border-radius: 6px;
+}
+
+.title-hero {
+    font-size: 1.8em;
+    margin-bottom: .5em;
+    margin-top: .8em;
+}
+
+.detalhes-p {
+    color: #878EA1;
+    font-size: 1.4em;
+}
+
+.header-hero {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.servicos {
+    background-color: #0D0E11;
+    height: 100%;
+    padding: 1px;
+}
+
+.header-hero {
+    margin-top: 8.8em;
+    margin-bottom: 5.6em;
+}
+
+.servli {
+    display: flex;
+    gap: 2.4em;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 12em;
+}
+
+
+
+.servli li {
+    list-style-type: none;
+    border: 1px solid #16181D;;
+    padding: 2em;
+    border-radius: 12px;
+    width: 28em;
+    height: 100%;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.idt {
+    margin-bottom: 1em;
+    margin-top: 2em;
+    font-size: 1.8em;
+}
+
+.lg {
+    color: #878EA1;
+    font-size: 1.4em;
+    margin-bottom: 1em;
+}
+
+
+
+/* LINKS */
+
+.links {
+    background-image: url(./img/Background_Contacts.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    height: 70vh;
+    width: 100%;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding: 1px;
+}
+
+.header-cont {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+    margin-top: 12.8em;
+}
+
+.contato {
+    color: #BB72E9;
+    font-size: 2em;
+    line-height: 120%;
+    margin-bottom: 0.5em;
+}
+
+.cmg {
+    font-size: 3em;
+    line-height: 120%;
+    margin-bottom: 0.5em;
+}
+
+.detail {
+    font-size: 1.8em;
+    color: #878EA1;
+
+}
+
+.link-list {
+    width: 40em;
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    gap: 1.6em;
+    margin-top: 4.8em;
+}
+
+.link-list li {
+    list-style-type: none;
+    background-color: #292C34;
+    display: flex;
+    align-items: center;
+    padding: 1.6em;
+    border-radius: 8px;
+}
+
+.link-list li:hover {
+    border: 1px solid #3996DB;
+}
+
+.link-list li span {
+    margin-left: 1.6em;
+    font-size: 1.4em;
+}
+
+.flecha {
+    margin-left: auto;
+}
